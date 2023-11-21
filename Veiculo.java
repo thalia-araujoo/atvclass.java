@@ -12,19 +12,19 @@ public class Veiculo{
         return this.MarcaVeiculo;
     }
 
-    public void Ano(int Ano){
+    public void setAno(int Ano){
         this.Ano=Ano;
     }
 
-    public int Ano(){
+    public int getAno(){
         return this.Ano;
     }
 
-    public void Modelo(String Modelo){
+    public void setModelo(String Modelo){
         this.Modelo=Modelo;
     }
 
-    public String Modelo(){
+    public String getModelo(){
         return this.Modelo;
     }
 

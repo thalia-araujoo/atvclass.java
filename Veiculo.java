@@ -1,7 +1,7 @@
-public class Veiculo{
+public class Veiculos{
     private String MarcaVeiculo;
-    private int ano;
-    private String modelo;
+    private int Ano;
+    private String Modelo;
     
 
     public void setMarcaVeiculo(String MarcaVeiculo){
@@ -28,7 +28,7 @@ public class Veiculo{
         return this.Modelo;
     }
 
-    public imprimirVeiculo(){
+    public void imprimirVeiculo(){
         System.out.println("Ano: "+this.Ano);
         System.out.println("Modelo: "+this.Modelo);
         System.out.println("Marca Do Veiculo: "+this.MarcaVeiculo);

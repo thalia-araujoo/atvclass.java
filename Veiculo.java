@@ -2,7 +2,14 @@ public class Veiculos{
     private String MarcaVeiculo;
     private int Ano;
     private String Modelo;
-    
+    private int quilometragem;
+
+    public void setquilometragem(int quilometragem){
+        this.quilometragem=quilometragem;
+    }
+    public int getquilometragem(){
+        return this.quilometragem;
+    }
 
     public void setMarcaVeiculo(String MarcaVeiculo){
         this.MarcaVeiculo=MarcaVeiculo;
@@ -32,6 +39,7 @@ public class Veiculos{
         System.out.println("Ano: "+this.Ano);
         System.out.println("Modelo: "+this.Modelo);
         System.out.println("Marca Do Veiculo: "+this.MarcaVeiculo);
+        System.out.println("quilometragem Do Veiculo: "+this.quilometragem);
     }
 
 }
